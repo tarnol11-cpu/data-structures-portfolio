@@ -1,2 +1,2 @@
 # data-science-portfolio
-Page for my website
+Page for my portfolio
