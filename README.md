@@ -1,2 +1,2 @@
-# data-structures-portfolio
+# data-science-portfolio
 Page for my website
