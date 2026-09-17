@@ -27,3 +27,5 @@ I then excluded week 1 games because the data is revolved aroud the 2025 season,
 I then reshaped the schedule data so that there was one team observation per game. This made it easier to be able to calculate each team's points scored, point differential, points allowed, and team win's per week. I used pandas groupby() and cumulative calculations in order to use games that team performance statistics from a previous game.
 After calculating the pregame statistics, I removed any obersvations that had zero previous games. This opened the opportunity to be able to merge the home-team and away-team statistics into the game-level schedule using game_id. I was then able to calculate home minus away differences for points scored, allowed, differential, and win percentage.
 The final dataset that I used had 240 NFL games, 0 missing values, and no duplicate games.
+
+[View the full data cleaning code](https://github.com/tarnol11-cpu/data-structures-portfolio/blob/main/data_cleaning.py)
