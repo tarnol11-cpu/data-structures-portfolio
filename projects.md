@@ -71,6 +71,12 @@ Finally the results describe association rather than causation. Other variables 
 ## Unanswered Questions
 They are several questions that remain outside the scope of this project. Would the same relationships appear accross multiple NFL seasons? Would roster changes, trades, injuries, weather, or other statistics improve the model? Would playoffs have a different model? Future research could be done to address these questions by using multiple seasons and offering additional information.
 
+## Conclusion
+
+This project examined which pregame team performance factors were most strongly associated with NFL point spreads during the 2025 regular season. Using 240 games and a multiple linear regression model, win percentage difference, points scored difference, and points allowed difference were all significantly associated with the published point spread. The standardized coefficients showed that points allowed difference and points scored difference had stronger associations with the spread than win percentage difference within this model. The model explained 58.4% of the variation in point spreads.
+
+These findings suggest that observable team performance statistics contain meaningful information associated with NFL point spreads. However, the results are limited to the 2025 regular season and do not establish causation or explain the internal process sportsbooks use to create their lines. Additional seasons and variables such as injuries, roster changes, weather, strength of schedule, and advanced team statistics could provide a more complete analysis.
+
 ## Code and AI Transparency
 ## Code
 The python code was used to obtain, clean, prepare, visualize, and analyze the NFL data. 
