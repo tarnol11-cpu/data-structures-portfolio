@@ -72,10 +72,11 @@ All external data sources, research sources, and tools used in the project are c
 ## Key Academic References
 
 Vergin, R. C. (2001). Overreaction in the NFL point spread market. *Applied Financial Economics, 11*(5), 497–509. https://doi.org/10.1080/096031001752236780
-
+[View](https://doi.org/10.1080/096031001752236780)
 
 Vergin, R. C., & Sosik, J. J. (1999). No place like home: An examination of the home field advantage in gambling strategies in NFL football. *Journal of Economics and Business, 51*(1), 21–31. https://doi.org/10.1016/S0148-6195(98)00025-3
+[View](https://doi.org/10.1016/S0148-6195(98)00025-3)
 
 Vandenbruaene, J., De Ceuster, M., & Annaert, J. (2022). Efficient spread betting markets: A literature review. *Journal of Sports Economics, 23*(7), 907–949. https://doi.org/10.1177/15270025211071042
-
+[View](https://doi.org/10.1177/15270025211071042)
 
