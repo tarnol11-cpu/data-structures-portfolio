@@ -2,8 +2,12 @@
 This section documents my data science projects, research questions, and data stories I create throughout the semesters.
 ---
 ## Project 1
-## Research Question
-### Which team performance factors are most strongly associated with NFL point spreads?
+<div class="research-question">
+  <div class="question-label">RESEARCH QUESTION</div>
+  <div class="question-text">
+    Which team performance factors are most strongly associated with NFL point spreads?
+  </div>
+</div>
 
 ## Dataset and Description
 
