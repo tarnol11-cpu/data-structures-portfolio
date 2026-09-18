@@ -19,7 +19,7 @@ This section documents my data science projects, research questions, and data st
 ## Points Scored Difference - Home teams's average points scored minus the away team's average points scored
 ## Points Allowed Difference - Home team's average points allowed minus the away team's average points allowed
 In order to prevent data leakage we are measuring the team perfomance before each game, in order to help predict that factors that go into deciding the point spread for the upcoming game.
-Point spreads are designed to be able to represent the expected margin between different teams. The goal of this project is not to determine exactly how sportsbooks decipher the spreads, but rather to determine which variables that we can observe, are most strongly associated with the point spreads that are published for NFL games.
+Point spreads are designed to be able to represent the expected margin between different teams. They are also commonly used in sports betting to represent an expected margin of victory, and previous research has examined NFL point spreads as pregame estimates of game margins and as a part of the NFL betting market(Vergin & Sosik, 1999; Vergin, 2001). More recent research has reviewed the broader literature on spread betting markets and market efficieny (Vandenbruaene et al., 2022). The goal of this project is not to determine exactly how sportsbooks decipher the spreads, but rather to determine which variables that we can observe, are most strongly associated with the point spreads that are published for NFL games.
 ## Data Cleaning and Preparation
 The raw NFL data was obtained programmatically by using the nflreadpy package which is avaliable via vscode and was convereted from Polars DataFrames to pandas DataFrames for cleaning and analysis. The initial numbers for the schedule data contained 285 games and 46 variables. The weekly team statistics data contained 570 team-game observations and 138 variables.
 To start the data cleaning, I condensed the analysis to just be regular season games in order to focus on team performance during the regular season since playoff games have a different competitive enviornemnt.
@@ -61,5 +61,21 @@ They are several questions that remain outside the scope of this project. Would 
 ## Code
 The python code was used to obtain, clean, prepare, visualize, and analyze the NFL data. 
 
+[View the complete analysis code on GitHub](https://github.com/tarnol11-cpu/data-structures-portfolio/blob/main/Full_code.py)
+
+## AI Usange Disclosure
+I used ChatGPT as a learning and coding support tool to help guide me whenever stuck or wanted more in depth code during this project. AI was used for python to help troubleshoot errors, pandas concepts, and suggests approches for how to clean/organize the dataset. I ran the code myself, looked at the outputs, cleaned the data, and made the overall decisions about variables, visualizations, and interpretation of the results. AI helped my support for understanding and developement of the project rather than a replacement for my own analysis.
+
+## Citations
+All external data sources, research sources, and tools used in the project are cited properly in the appropiate sections of the project. The NFL data was obtained from nflverse in the nflreadpy python package. Peer-reviewed research was also used to provide context for NFL point spreads and sports betting markets.
+
+## Key Academic References
+
+Vergin, R. C. (2001). Overreaction in the NFL point spread market. *Applied Financial Economics, 11*(5), 497–509. https://doi.org/10.1080/096031001752236780
+
+
+Vergin, R. C., & Sosik, J. J. (1999). No place like home: An examination of the home field advantage in gambling strategies in NFL football. *Journal of Economics and Business, 51*(1), 21–31. https://doi.org/10.1016/S0148-6195(98)00025-3
+
+Vandenbruaene, J., De Ceuster, M., & Annaert, J. (2022). Efficient spread betting markets: A literature review. *Journal of Sports Economics, 23*(7), 907–949. https://doi.org/10.1177/15270025211071042
 
 
