@@ -4,20 +4,34 @@ This section documents my data science projects, research questions, and data st
 ## Project 1
 ## Research Question
 ### Which team performance factors are most strongly associated with NFL point spreads?
+
 ## Dataset and Description
-### Source: 2025 NFL data obtained through the nflverse (nflreadpy) package avaliable in python which provides schedule and team-level statistics. Two different data sets contained in the nflreadpy package. The first being the schedule dataset for game-level information. The second being the team statistics dataset for team performance-level information.
-### Unit of Analysis: One NFL game after aggregating the team-level data.
-### Features (Betting-Market, Outcomes, and Statistical Model): Point spread will be my dependent variable. Game total, final score, scoring margin/winner, team performance, and win/loss percentage will all be other variables used to get to the outcome variable. 
-### Size: The 2025 schedule dataset has 285 games and 46 features. The 2025 team statistics dataset has 570 team-game observations and 138 features.
-### Missing Values: All primary variables used in the analysis contain no missing values, some unused schedule variables contain missing values such as nfl_detail_id and pff, therefore these variables will be excluded rather than imputed into my analysis.
+
+### Source
+2025 NFL data obtained through the nflverse (nflreadpy) package avaliable in python which provides schedule and team-level statistics. Two different data sets contained in the nflreadpy package. The first being the schedule dataset for game-level information. The second being the team statistics dataset for team performance-level information.
+
+### Unit of Analysis
+One NFL game after aggregating the team-level data.
+
+### Features
+(Betting-Market, Outcomes, and Statistical Model): Point spread will be my dependent variable. Game total, final score, scoring margin/winner, team performance, and win/loss percentage will all be other variables used to get to the outcome variable. 
+
+### Size
+The 2025 schedule dataset has 285 games and 46 features. The 2025 team statistics dataset has 570 team-game observations and 138 features.
+### Missing Values
+All primary variables used in the analysis contain no missing values, some unused schedule variables contain missing values such as nfl_detail_id and pff, therefore these variables will be excluded rather than imputed into my analysis.
 
 ## Conceptualized/operationalized variables and important context
 ## Variables
-## Point Spread - Outcome Variable/ Dependent Variable
-## Win Percentage Difference - Home team's pregame win % minus the away teams's pregame win %
-## Point Differential Difference - Home team's average pregame point differential minus the away team's average
-## Points Scored Difference - Home teams's average points scored minus the away team's average points scored
-## Points Allowed Difference - Home team's average points allowed minus the away team's average points allowed
+### Point Spread 
+Outcome Variable/ Dependent Variable
+### Point Differential Difference
+Home team's average pregame point differential minus the away team's average
+### Points Scored Difference
+Home teams's average points scored minus the away team's average points scored
+### Points Allowed Difference
+Home team's average points allowed minus the away team's average points allowed
+
 In order to prevent data leakage we are measuring the team perfomance before each game, in order to help predict that factors that go into deciding the point spread for the upcoming game.
 Point spreads are designed to be able to represent the expected margin between different teams. They are also commonly used in sports betting to represent an expected margin of victory, and previous research has examined NFL point spreads as pregame estimates of game margins and as a part of the NFL betting market(Vergin & Sosik, 1999; Vergin, 2001). More recent research has reviewed the broader literature on spread betting markets and market efficieny (Vandenbruaene et al., 2022). The goal of this project is not to determine exactly how sportsbooks decipher the spreads, but rather to determine which variables that we can observe, are most strongly associated with the point spreads that are published for NFL games.
 ## Data Cleaning and Preparation
