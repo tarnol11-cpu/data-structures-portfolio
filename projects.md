@@ -33,7 +33,33 @@ The final dataset that I used had 240 NFL games, 0 missing values, and no duplic
 ## Visuals 
 The visuals below help examine the relationships between pregame performance and NFL point spreads. The observations represent one NFL game, and the perfomance differences are calculated as the home team's value minus the away teams.
 
-### Points Allowed vs NFL Point Spread
+### Points Allowed Difference vs NFL Point Spread
 <img width="575" height="454" alt="image" src="https://github.com/user-attachments/assets/f9bf9eef-28bd-4f4c-a9f2-621f09c2e2ff" />
+This scatter plot shows the relationship between the difference in average points allowed by the home and away teams and the published point spread. This plot has a general downward spread. One thing to note is that if a team has a positive point spread that means they are favored to win by that many points. This is opposite from sportsbook because the point spread for a sportsbook would be negative for the favored team. In our case a positive point spread means the home team is favored to win, this is how the nflverse dataset represents point spreads. The downward trend shows that when the home team has a lower points allowed, they have a higher point spread meaning they are favored to win. When the home team has a more points allowed they are expected to lose.
+
+### Points Scored Difference vs NFL Point Spread
+<img width="575" height="454" alt="image" src="https://github.com/user-attachments/assets/64d92618-7b60-4d65-899b-1a4c2c2b74a9" />
+This scatter plot shows the relationship between the difference in average points scored by the home and away teams and the published point spread. It has a general upward trend. When the home team has a lower points scored differnce relative to the away team, they are expected to lose. As you move up the graph, when the home team has a higher points scored difference compared to the away teams points scored difference they are favored to win.
+
+## Ethics and Limitations
+This project uses publicly avaliable NFL data obtained programmatically from nfl verse. There was no private or sensitive information used in the analysis. The data is describing publicy avaliable game and team performance, so ethical considerations involve responsible interpretation of the results rather than personal privacy.
+
+One of the limitations was the fact that only 2025 NFL regular season data was used. With this being said, this only represents a relatively smaller sample and may not exactly correlate with other seasons. Another limitation is that coaching, injuries, schedules and other in season conditions vary from year to year. Results should not be assumed to apply to every individual season.
+
+Another limitation is that the model used, has 2 factors it was narrowed down to: average point scored and average points allowed. They are other factors that may not be included that could associate with the point spread. For example injuries, roster changes, weather, etc. This means that the model does not explain all of the factors that may influence the dependent varibale (published spread).
+
+Additional context could play a part in this because certain teams may have more defensive advantages meaning points may not all have came from the same thing.
+
+There may be potential bias due to the information that is included or excluded in the dataset. Since the model focuses on regular season performance, factors that are difficult to measure may be unshown. Also since the data is from the game before, early-season games have less historical information than later-season games.
+
+Finally the results describe association rather than causation. Other variables may influence both team performance and the published spread.
+
+## Unanswered Questions
+They are several questions that remain outside the scope of this project. Would the same relationships appear accross multiple NFL seasons? Would roster changes, trades, injuries, weather, or other statistics improve the model? Would playoffs have a different model? Future research could be done to address these questions by using multiple seasons and offering additional information.
+
+## Code and AI Transparency
+## Code
+The python code was used to obtain, clean, prepare, visualize, and analyze the NFL data. 
+
 
 
