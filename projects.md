@@ -29,3 +29,11 @@ After calculating the pregame statistics, I removed any obersvations that had ze
 The final dataset that I used had 240 NFL games, 0 missing values, and no duplicate games.
 
 [View the full data cleaning code](https://github.com/tarnol11-cpu/data-structures-portfolio/blob/main/data_cleaning.py)
+
+## Visuals 
+The visuals below help examine the relationships between pregame performance and NFL point spreads. The observations represent one NFL game, and the perfomance differences are calculated as the home team's value minus the away teams.
+
+### Points Allowed vs NFL Point Spread
+<img width="575" height="454" alt="image" src="https://github.com/user-attachments/assets/f9bf9eef-28bd-4f4c-a9f2-621f09c2e2ff" />
+
+
