@@ -1,7 +1,6 @@
----
+
 layout: default
 title: Project 2
----
 
 # Project 2: NFL Running Back Rushing Yard Prediction
 
