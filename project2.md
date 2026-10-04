@@ -278,6 +278,10 @@ Users should understand that the model provides an estimate, not a guarantee. It
 
 # Code and Transparency
 
+## Full Jupyter Notebook
+
+[View the full Jupyter Notebook](NFL_RB_Rushing_Yard_Prediction.ipynb.ipynb)
+
 
 
 
