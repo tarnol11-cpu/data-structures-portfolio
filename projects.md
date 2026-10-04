@@ -1,4 +1,5 @@
 # Projects
+[Project 1](projects.md) | [Project 2](project2.md)
 This section documents my data science projects, research questions, and data stories I create throughout the semesters.
 ---
 ## Project 1
