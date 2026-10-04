@@ -282,6 +282,27 @@ Users should understand that the model provides an estimate, not a guarantee. It
 
 [View the full Jupyter Notebook](NFL_RB_Rushing_Yard_Prediction.ipynb.ipynb)
 
+## Dataset sources and documentation cited
+
+[nflverse](https://github.com/nflverse)
+[nflverse Data Repository](https://github.com/nflverse/nflreadpy)
+
+Source 1:
+
+Kraeutler, M. J., Belk, J. W., & McCarty, E. C. (2017). The effect of the number of carries on injury risk and subsequent season's performance among running backs in the National Football League. Orthopaedic Journal of Sports Medicine, 5(3). https://doi.org/10.1177/2325967117691941
+
+Source 2:
+
+Kraeutler, M. J., Belk, J. W., & McCarty, E. C. (2017). The effect of the number of carries among college running backs on future injury risk and performance in the National Football League. Orthopaedic Journal of Sports Medicine, 5(5). https://doi.org/10.1177/2325967117703054 
+
+Source 3:
+
+Salaga, S., Mills, B. M., & Tainsky, S. (2020). Employer-assigned workload and human capital deterioration: Evidence from the National Football League. Journal of Sports Economics, 21(6), 574–599. https://doi.org/10.1177/1527002520930258
+
+## AI transparency
+
+I used OpenAI ChatGPT for when I was stuck or confused on data cleaning and preperation to help understand python, coding errors, and imporve the oragnization of my project. I also used it to helped interpret some of my results. Data preperation, analysis, model training, and evaluation were complted all within my jupyter notebook. ChatGPT was more of a support tool and did not replace my own analysis or decision making for this project.
+
 
 
 
