@@ -9,6 +9,17 @@ This section documents my data science projects, research questions, and data st
   </div>
 </div>
 
+---
+
+## Project 2
+
+### NFL Running Back Rushing Yard Prediction
+
+**Research Question:**  
+What variables most accurately predict how many rushing yards an NFL running back will record in an upcoming game?
+
+[View Project 2](project2)
+
 ## Dataset and Description
 
 ### Source
