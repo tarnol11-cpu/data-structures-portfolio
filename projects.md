@@ -1,9 +1,9 @@
 # Projects
----
+
 [Project 1](projects.md) | [Project 2](project2.md)
----
+
 This section documents my data science projects, research questions, and data stories I create throughout the semesters.
----
+
 ## Project 1
 <div class="research-question">
   <div class="question-label">RESEARCH QUESTION</div>
@@ -11,8 +11,6 @@ This section documents my data science projects, research questions, and data st
     Which team performance factors are most strongly associated with NFL point spreads?
   </div>
 </div>
-
----
 
 ## Dataset and Description
 
